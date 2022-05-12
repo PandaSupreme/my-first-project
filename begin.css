@@ -1,0 +1,224 @@
+
+myHeading {
+	display: block;
+	background-color: white;
+	padding: 50px;
+	font-size: 50px;
+	color: #4CAF50;
+	font-family: cursive;
+	text-align: center;
+	text-decoration: underline;
+}
+
+
+#div1 { width:350px; height: 70px; padding: 10px; border:1px solid#aaaaaa;}
+
+
+body {
+	background-color: #4CAF50;
+	font-size: 0.8em;
+}
+
+header, nav, section, article, footer {
+	border: 1px solid grey; margin: 5px; padding: 8px;
+}
+
+div#menu ul li {
+	font-size: 20px;
+	color: white;
+	padding: 20px;
+	background-color: #ff9999;
+}
+
+nav ul {margin: 0; padding: 0;}
+nav hl li {display: inline; margin: 5px;}
+
+
+
+}
+
+h1 {
+	
+	color: white;
+	font-family: verdana;
+	font-size: 300%;
+
+}
+
+
+h2 {
+	color: gold;
+	font-family: cursive;
+	font-size: 300;
+}
+
+
+p{
+	color: white;
+	font-family: courier;
+	font-size: 160%;
+	padding: 0px; 
+}
+
+table, th, td {
+		border: 2px solid black;
+		border-collapse: collapse;
+		color: white;
+		
+		}
+
+
+th, td {
+		padding: 10px;
+		text-align: center;
+}
+
+
+table#01 tr:nth-child(even) {
+
+	background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+
+	background-color: #fff;
+}
+
+
+table#01 th {
+	color: white;
+	background-color: black;
+}
+
+
+ul#menu {
+	padding:20;
+	background: #ffe5e5;
+}
+
+ul#menu li {
+	display:inline;
+	background: #3399ff;
+}
+
+ul#menu li a {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover{
+	background-color: orange;
+}
+
+
+#p01 {
+	color: yellow;
+	font-family: Tahoma;
+	font-size: 300%;
+}
+
+#p02 {
+	color: brown;
+	font-family: cursive;
+	font-size: 300%;
+}
+
+p.error {
+	color: red;
+	font-size: 300%;
+	font-family: Tahoma;
+} 
+
+a:link {
+	 color: white;
+	 background-color: green;
+	 font-size: 200%;
+	 text-decoration: none;
+	 padding: 14px 25px;
+	 display: inline-block;
+}
+
+a:visited {
+			color: hot-pink;
+			text-decoration: none;
+			padding: 14px 25px;
+			background-color: #f44336;
+			 display: inline-block;
+}
+
+a:hover {
+			
+			text-decoration: none;
+			background-color: orange;
+}		
+
+a: active{
+		color: pink;
+		padding: 14px 25px;
+		background-color: red;
+}
+
+
+div.cities{
+	background-color: black;
+	color: white;
+	margin: 20px;
+	padding: 20px;
+
+}
+
+span.note {
+	font-size: 300%; 
+	color: red;
+
+}
+
+
+#header {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#nav {
+	line-height: 30px;
+	background-color: white;
+	height: 300px;
+	width: 100px;
+	float: left;
+	padding: 5px;
+	margin: 20px;
+	color: black;
+}
+
+#section {
+	width: 350px;
+	float: left;
+	padding: 10px;
+}
+
+#footer{
+	background-color: black;
+	color: white;
+	clear: both;
+	text-align: center;
+	padding: 5px;
+}
+
+
+table.lamp{
+	width: 45%;
+	border:0px solid #d4d4d4;
+
+}
+
+table.lamp th, td{
+	width: 40px;
+	margin: 20px;
+	padding: 5px;
+	text-align: left;
+}

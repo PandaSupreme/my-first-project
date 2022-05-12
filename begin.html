@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+<script>document.createElement("myCanvas")</script>
+<script>document.createElement("myHeading")</script>
+<link rel="stylesheet"  href="begin.css">
+
+
+	
+<!--The code below belongs to Drag ans drop-->
+
+<script>
+	function allowDrop(ev) {
+		ev.preventDefault();
+	}
+
+	function drag(ev) {
+		ev.dataTransfer.setData("text", ev.target.id);
+	}
+
+	function drop(ev) {
+		ev.preventDefault();
+		var data = ev.dataTransfer.getData("text");
+		ev.target.appendChild(document.getElementById(data));
+	}
+</script>
+
+<!--Drag and drop script ends here-->
+
+
+
+</head>
+
+<body>
+
+
+
+<myHeading> 
+
+THIS IS MY FIRST WEBSITE EVER</myHeading>
+
+<nav>
+
+<a href="html5_semantic_elements.asp">MONDAY TIMES</a>   ||
+
+</nav>
+
+<div id="menu">
+<ul>
+  <li>News</li>
+  <li>Sports</li>
+  <li>Weather</li>
+</ul>
+</div>
+
+
+This is supposed to be a freaking paragraph</p>
+
+<h3 style="color:lightgrey;" <h3 style="text-align:center;">This is a subtle heading</h3>
+
+<h2>Maltina Drink</h2>
+<a href="http://www.maltina.com/html/" target="_blank"> 
+<img src="./image/malt.jpg" alt="malt" style="width:230px; height:230px;" border="0"></a>
+
+<h2>Passport</h2>
+<img src="./image/face.jpg" alt="face" style="width:230px; height:230px;">
+
+
+<p id="p01">I am different from others</p>
+<p id="p02"> I am a different shade of different</p>
+<p class="error">I am different too</p>
+
+<a href="http://www.w3schools.com/html/" target="_blank"> Visit our HTML tutorial </a> 
+
+<p><a href="#C7"> Jumpt to Chapter 7</a></p>
+			<hr>
+	<h2>This is Chapter ONE</h2>
+<p> 1. This is the first line </p>
+			<hr>
+		<h2>This is Chapter TWO</h2>
+<p> 2. <strong>This is the second line</strong></p>
+			<hr>
+		<h2>This is Chapter THREE</h2>
+<p> 3. <em>This is the third <del>line</del>></em></p>
+			<hr>
+		<h2>This is Chapter FOUR</h2>
+<p> 4. This is the <ins>fourth</ins> line</p>
+			<hr>
+		<h2>This is Chapter FIVE</h2>
+<p>	5. This is the fifth line</p>
+			<hr>
+		<h2>This is Chapter SIX</h2>
+<p> 6. This is the <mark>sixth</mark> line</p>
+			<hr>
+	<h2 id="C7">This is Chapter SEVEN</h2>
+<p> 1. This is the seventh line </p>
+			<hr>
+		<h2>This is Chapter EIGHT</h2>
+<p> 2. <strong>This is the eight line</strong></p>
+			<hr>
+			<hr>
+<p> I was awarded the 1<sup>st</sup>  position in english language</p>
+<br>
+
+
+<p> The goal is to: <q>Build a future where peole live in peace and harmony</q> </p>
+
+<p>Here is a quote fromm WWF's website:</p>
+<blockquote cite="http://worldwildlife.org/who/index.html">
+
+For 50 years, WWF has been protecting the future
+of nature.The world's leading conservation
+organization, WWF works in 100 countries and is
+supported by 1.2 million members in the United States
+and close to 5 million globally.
+
+</blockquote>
+
+
+<p>The <abbr title = "World Health Organization">WHO</abbr> was founded in 1948</p>
+
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+<p> The formula is = A <sup>a</sup> x B <sub>b</sub> 
+
+<p>Click on the link below to access facebook</p>
+
+<a href="www.facebook.com" style="color:blue;"><p style="font-family:tahoma;">FACEBOOK</p></a>
+
+
+<pre>
+
+My Bonnie lies over the ocean.
+
+My Bonnie lies over the sea.
+
+My Bonnie lies over the ocean.
+
+Oh, bring back my Bonnie to me.
+
+</pre>
+
+<p><cite>The BonyTale</cite> by Cosmas Obite. Painted in 1986.</p>
+
+
+<bdo dir="rtl">Cosmas</bdo> <br>
+
+<br>
+
+<p>The kbd element below represents keyboard input</p>
+<p><kbd>File | Open...</kbd></p>
+
+
+<p>The Sample Element</p>
+
+	<samp>demo.example.com login: Apr 12 09:10:17
+	Linux 2.6.10-grsec+gg3+e+fhs6b+nfs+gr0501+++p3+c4a+gr2b-reslog-v6.189</samp>
+
+
+<pre>
+	<code>
+		var x = 5;
+		var y= 6;
+		document.getElementById("demo").innerHTML = x + y;
+	</code>
+</pre>
+
+
+Einstein wrote: <var>E</var> = <var>m</var><var>c</var><sup>2</sup>
+
+
+<h1 style="background-color:red">Background Color is set using Red</h1>
+<h2 style="background-color:orange">Background Color is set by using Orange</h2>
+<h3 style="background-color: purple">Background Color is set by using Purple</h>
+<h4 style="background-color: green ">Background Color is set by using Green</h4>
+<h5 style="background-color: blue">Background Color is set by using blue</h5>
+<h6 style="background-color:brown">Background Color is set by using Brown</h6>
+
+
+<h1 style="background-color:rgb(255,0,0)">Background Color is set using rgb(255,0,0)</h1>
+<h2 style="background-color:rgb(0,255,0)">Backgound Color is set by using (0,225,0)</h2>
+<h3 style="background-color: rgb(0,0,255)">Background Color is set by using rgb(0,0,255)</h>
+<h4 style="background-color: rgb(255,255,0) ">Background Color is set by using (255,255,0)</h4>
+<h5 style="background-color: rgb(255,0,255)">Background Color is set by using rgb(255,0,255)</h5>
+<h6 style="background-color:rgb(0,255,255)">Background Color is set by using rgb(0,255,255)</h6>
+
+<h1 style="color:blue;">This is a Blue heading</h1>
+
+
+<h1>TABLE SECTION</h1>
+
+<table style="width 100%">
+
+<caption>Student Details</caption>
+
+<tr>
+	
+	<th>NAME</th>
+	<th>SURNMAME</th>
+	<th>MATRIC NUMBER</th>
+	<th>STATE</th>
+
+</tr>
+
+<tr>
+	<td>Jill</td>
+	<td>Jones</td>
+	<td>SCI/2020/001</td>
+	<TD>NY</TD>
+</tr>
+
+<tr>
+	<td>Joshua</td>
+	<td>Oduwaye</td>
+	<td>SCI/2020/002</td>
+	<TD>KD</TD>
+</tr>
+</table>
+
+<br>
+
+<table id="t01">
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>		
+    <th>Points</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>		
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>		
+    <td>94</td>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>Doe</td>		
+    <td>80</td>
+  </tr>
+
+</table>
+
+<br>
+
+<h1>TYPES OF LIST</h1>
+
+<ul style="list-style-type:disc">
+	
+	<li>Coffee</li>
+	<li>Tea</li>
+	<li>Milk</li>
+	<li>Baked Beans</li>
+	<li>Cinamon</li>
+	<li>Strawberry</li>
+	<li>Avocado</li>
+
+</ul>
+
+
+<ul style="list-style-type:circle">
+
+	<li>Coffee</li>
+	<li>Tea</li>
+	<li>Milk</li>
+	<li>Baked Beans</li>
+	<li>Cinamon</li>
+	<li>Strawberry</li>
+	<li>Avocado</li>
+
+</ul>
+
+
+<ul style="list-style-type:square">
+	
+	<li>Coffee</li>
+	<li>Tea</li>
+	<ul>
+	<li>Milk</li>
+	<li>Baked Beans</li>
+	<li>Cinamon</li>
+	</ul>
+	<li>Strawberry</li>
+	<li>Avocado</li>
+
+
+</ul>
+
+
+<h2>Horizontal List</h2>
+
+<ul id="menu">
+	
+    <li>Coffee</li>
+	<li>Tea</li>
+	<li>Milk</li>
+	<li>Baked Beans</li>
+	<li>Cinamon</li>
+	<li>Strawberry</li>
+	<li>Avocado</li>
+
+
+</ul>
+
+<div style="background-color:black; color:white; padding:20px;"><h4><span style="color:red;">**IMPORTANT**</span></h4>
+<h2>A Description List</h2>
+<dl>
+	<dt>Coffee</dt>
+	<dd>- black with sugar </dd>
+	
+	<dt>Milk</dt>
+	<dd>- white cold</dd>
+
+</dl>
+
+</div>
+
+<br>
+
+<div id="header">
+<h1><span style="color:white;">CITY GALLERY</h1></span>
+</div>
+
+<div id="nav">
+
+London<br>
+Paris<br>
+Tokyo<br>
+</div>
+
+
+<div id="section">
+
+<div class="cities">
+
+<h2><span class="note">London</h2></span>
+
+<p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+
+<p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+</div>
+</div>
+
+<div class="cities">
+
+<h2><span style="color:white">Paris</h2></span>
+
+<p>Paris is the capital and most populous city of France.</p>
+
+<p>Situated on the Seine River, it is at the heart of the Île-de-France region, also known as the région parisienne.</p>
+
+<p>Within its metropolitan area is one of the largest population centers in Europe, with over 12 million inhabitants.</p>
+</div>
+
+
+<div class="cities">
+
+<h2><span class="note">Tokyo</h2></span>
+
+<p>Tokyo is the capital of Japan, the center of the Greater Tokyo Area, and the most populous metropolitan area in the world.</p>
+
+<p>It is the seat of the Japanese government and the Imperial Palace, and the home of the Japanese Imperial Family.</p>
+
+<p>The Tokyo prefecture is part of the world's most populous metropolitan area with 38 million people and the world's largest urban economy.</p>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+
+
+<table class="lamp">
+	<tr>
+			<img src="./image/lamp.jpg" alt="Note" style="heigt:32px; width:32px"><p>Warning: </p>
+	<td>
+		Creating layout with tables is not wrong, but it is not recommended! Avoid tables for creating layout.
+
+	</td>
+	</tr>
+</table>
+
+
+
+<div class="w3-container w3-orange">
+<h1>W3.CSS Demo</h1>
+<p>Resize this responsive page!</p>
+</div>
+
+<div class="w3-row-padding">
+
+<div class="w3-third">
+<h2>London</h2>
+  <p>London is the capital city of England.</p>
+  <p>It is the most populous city in the United Kingdom,
+  with a metropolitan area of over 13 million inhabitants.</p>
+</div>
+
+
+<div class="w3-third">
+<h2>Paris</h2>
+  <p>Paris is the capital of France.</p> 
+  <p>The Paris area is one of the largest population centers in Europe,
+  with more than 12 million inhabitants.</p>
+</div>
+
+
+<div class="w3-third">
+<h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+  <p>It is the center of the Greater Tokyo Area,
+  and the most populous metropolitan area in the world.</p>
+</div>
+
+
+
+<h1>This is my First JavaScript</h1>
+<p>JavaScript can change the content of an HTML element:</p>
+
+<button type="button" onclick="myFunction()">Click Me!</button>
+
+<p id="demo">This is a demonstration</p>
+
+
+<script>	
+function myFunction() {
+	document.getElementById("demo").innerHTML="Hello JavaScript!";
+
+	document.getElementById("demo").style.fontSize = "50px";
+
+
+	function light(sw) {
+		var pic;
+		if (sw == 0) {
+			pic = "lamp.jpg"
+		
+		} else {
+				pic = "lamp.gif"
+		}
+			document.getElementById('myImage').src = pic;
+		}
+	}
+}
+
+</script>
+
+<img id="myImage" src="./image/lamp.jpg" width="100" height="180">
+
+<p>
+
+<button type="button" onclick="light(1)">Light On </button>
+<button type="button" onclick="light(0)">Light Off</button>
+
+</p>
+
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+
+
+<form action="#" method="get" oninput="x.value=parseInt(a.value)+parseInt(b.value)" autocomplete="on">
+		0
+		<input type="range" id="a" name="a" value="50">
+		100 +
+		<input type="number" id="b" name="b" value="50">
+		=
+		<output name="x" for="a b"></output>
+		<br><br>
+		
+		<fieldset>
+
+	<legend>Personal Information:</legend>
+		
+			Username:<br>
+			<input type="text" name="userid" placeholder="User-id"   maxlength="9" required>
+			<br><br>
+			Password:<br>
+			<input type="password" name="psw" placeholder="Password" required>
+			<br><br>
+
+			Encryption: <keygen name="security">
+			<br><br>
+			<input type="submit" value="Submit">
+			<br><br>
+			First name:<br>
+			<input type="text" name="firstname" placeholder="First name">
+			<br>
+			<br>
+			Last name: <br>
+			<input type="text" name="lastname" placeholder="Last name">
+			<br>
+			<br>
+			Other names:<br>
+			<input type="text" name="Othnames" placeholder="Other names"> 
+			<br><br>
+			Fullnames:<br>
+			<input type="text" name="fullnames" placeholder="Full names"size="25">
+			<br><br>
+			Email:<br>
+			<input type="email" name="email" placeholder="Email"> 
+			<br><br>
+			Telephone:<br>
+			<input type="tel" name="usrtel" placeholder="Telephone">
+			<br><br>
+			Gender:<br>
+			<input type="radio" name="gender" value="male" checked>Male<br>
+			<input type="radio" name="gender" value="female"checked>Female<br>
+			<input type="radio" name="gender" value="other">Other<br> 
+			<br>
+
+			Birthday: <br>
+			<input type="date" name="bday">
+			
+			<br><br>
+
+			Select Car:<br>
+				<select name="cars">
+					<option value="none" selected></option>
+					<option value="honda">Honda</option>
+					<option value="volvo">Volvo</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+					<option value="fiat">Fiat</option>
+					<option value="others">Others</option>
+				</select> <br>
+				<br> 
+			Color:<br>
+			<input type="color" name="favcolor" value="#ff0000">
+				<br>
+				<br>
+			Points:
+				<input type="range" name="points" min="0" max="10">
+				<br>
+				<br>
+			Select time:
+			<input type="time" name="usr_time">
+			<br><br>
+			Year:<br>
+			<input type="year" name="vyear">
+			<br><br>
+				Do you have insurance? <br>
+				<input type="checkbox" name="vehicle1" value="Yes">I have insurance.<br>
+				<input type="checkbox" name="vehicle2" value="No">No, i don't have insurance.<br>
+
+			<br>
+
+			Select your Browser:<br>
+
+				<input list="browsers">
+				<datalist id="browsers">
+					<option value="Internet Explorer"></option>
+					<option value="Firefox"></option>
+					<option value="Phoenix"></option>
+					<option value="Chrome"></option>
+					<option value="Opera"></option>
+					<option value="Safari"></option>
+				</datalist>
+				<br>
+				<br>
+			No of visits (between 1 and 5):<br>
+			<input type="number" name="quantity" min="1" max="5">
+			<br><br>
+			Quantity:<br>
+			<input type="number" name="points" min="0" max="100" step="10">
+			<br><br>
+
+			Tell us about yourself:<br>
+			<textarea name="message" rows="10" cols="30">Describe your self here not more than 150 words.</textarea>
+			<br>
+			<button type="button" onclick="alert('Successful!')">End!</button>
+
+			<input type="submit" value="Submit">
+		</fieldset>
+
+
+
+		<p>Shapes</p>
+		<svg width="400" height="180">
+  			<rect x="50" y="20" rx="20" ry="20" width="150" height="150"
+  		style="fill:red;stroke:black;stroke-width:5;opacity:0.5" />
+		</svg>
+
+		<svg width="300" height="200">
+  <polygon points="100,10 40,198 190,78 10,78 160,198"
+  style="fill:lime;stroke:purple;stroke-width:5;fill-rule:evenodd;" />
+	</svg>
+
+		<svg width="400" height="100">
+  		<rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:10;stroke:rgb(0,0,0)" />
+		</svg>
+
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
+
+<br><br>
+
+<div style="text-align:center">
+
+<br><br>
+<video width="420" controls>
+<source src="./videos/Microsoft.mp4" type="video/mp4">
+</video>
+</div>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
+
+</form>
+<br>
+<p>Click the button below to get your coordinates</p>
+
+<button onclick="getLocation()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+	var x = document.getElementById("demo");
+	function getLocation() {
+		if (navigator.geolocation) {
+			navigator.geolocation.getCurrentPosition(showPosition);
+		} else {
+			x.innerHTML = "Geolocation is not supported by this browser.";
+		}
+	}
+	function showPosition(position) {
+		x.innerHTML = "Latitude:" + position.coords.latitude + "<br> Longitude: " + position.coords.longitude;
+	}
+</script>
+
+
+<p>Drag the image into the rectangle:</p>
+<div id=div1 ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<br>
+<img id="drag1" src="./image/malt.jpg" draggable="true" ondragstart="drag(event)" width="336" height="69"> <br>
+
+
+
+
+<!----------JAVA SCRIPT BEGINS HERE------------------------>
+
+<br>
+<h1>My First JavaScript Begins Here</h1>
+<button type="button" onclick="document.getElementById('demo').innerHTML = Date()"> Click to display Date and Time.</button>
+
+<p id="demo"></p>
+
+
+
+<div id="footer">
+<p>&copy; 2022 Monday Times. All rights reserved.</p>
+</div>
+
+<div id="footer">
+Copyright©W3Schools.com/CosmasObite/2022/tutorials/html?
+</div>
+
+</body>
+
+
+
+<!-- Write your comments below -->
+
+
+<!-- Mirrored from www.w3schools.com/html/exercise.asp?filename=exercise_attributes1 by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Mar 2016 11:03:27 GMT -->
+</html>
